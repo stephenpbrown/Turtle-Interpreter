@@ -1,0 +1,4 @@
+test:
+  script: "prove -MTime::Limit=30 --verbose --merge"
+  tags:
+    - gcc
