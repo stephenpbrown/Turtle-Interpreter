@@ -23,7 +23,7 @@ struct Attribute {  // should use variant type
 
 class Scanner {
 private:
-  std::istream& in_;
+  std::istream& _in;
   int lineno_;
 public:
   Scanner(std::istream& in) : in_{in}, lineno_{1} {}
