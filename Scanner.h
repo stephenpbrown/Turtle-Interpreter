@@ -3,6 +3,7 @@
 
 #include <string>
 #include <iostream>
+#include <ios>
 
 enum class Token {
   UNKNOWN, EOT,
@@ -26,7 +27,7 @@ private:
   std::istream& _in;
   int lineno_;
 public:
-  Scanner(std::istream& in) : in_{in}, lineno_{1} {}
+  Scanner(std::istream& in) : _in(in), lineno_(1) {} // Changedd {in} to (in)
   Token nextToken(Attribute& attr, int& lineno);
 };
 
