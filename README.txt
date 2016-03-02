@@ -1,6 +1,6 @@
 Turtle Graphics Interpreter
-Name: 
-Email: 
+Name: Stephen Brown
+Email: Stephen.P.Brown@wsu.edu
 
 Modification History:
   Initial files created.... W. Cochran, wcochran@wsu.edu (2/15/2026)
