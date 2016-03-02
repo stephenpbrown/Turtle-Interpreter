@@ -25,7 +25,7 @@ private:
   Stmt *block();
   Stmt *while_stmt();
   Stmt *if_stmt();
-  Stmt *elsePart();
+  Stmt *else_part();
   Stmt *action();
   Expr *expr();
   Expr *term();
