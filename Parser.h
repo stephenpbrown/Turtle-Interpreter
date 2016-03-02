@@ -13,7 +13,7 @@ private:
   Attribute attribute_;
   int lineno_;
 public:
-  Parser(Scanner& s) : scanner_{s}, AST_{} {}
+  Parser(Scanner& s) : scanner_(s), AST_(), lineno_(1) {} // Changed {s} to (s)
   void parse(); // throws
   std::list<Stmt*>& syntaxTrees() {return AST_;}
 private:
