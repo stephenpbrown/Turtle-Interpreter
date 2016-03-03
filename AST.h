@@ -158,7 +158,7 @@ public:
   	virtual void execute(Env& env) 
 	{
     	const float a = _angle->eval(env);
-    	std::cout << "R " << a << std::endl;
+    	std::cout << "L " << a << std::endl;
   	}
 };
 
