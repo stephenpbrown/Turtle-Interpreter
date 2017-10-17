@@ -3,7 +3,7 @@ Name: Stephen Brown
 Email: Stephen.P.Brown@wsu.edu
 
 Modification History:
-  Initial files created.... W. Cochran, wcochran@wsu.edu (2/15/2026)
+  Initial files created.... W. Cochran, wcochran@wsu.edu (2/15/2016)
 
 Description:
   A simple interpreter that reads in a "Turtle Graphics" program,
